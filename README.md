@@ -74,5 +74,6 @@ This is an exploratory, cross-sectional comparison of bulk-tumor gene expression
 ## Author
 
 Swasti Maurya
-Incoming Biological Sciences BS student, University at Buffalo (Spring 2027)
+
+Biological Sciences BS student, University at Buffalo (Spring 2027)
 www.linkedin.com/in/swasti-maurya
