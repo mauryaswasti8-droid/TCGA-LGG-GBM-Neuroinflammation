@@ -1,0 +1,11 @@
+Gene,TCGA_median_diff,TCGA_cliffs_delta,TCGA_adjusted_p,CGGA_median_diff,CGGA_cliffs_delta,CGGA_adjusted_p,TCGA_direction,CGGA_direction,Same_direction,TCGA_significant,CGGA_significant,Validation_result
+CSF1R,0.0998,0.0367965,0.488099,-0.42,-0.0638804,0.316994,Higher in GBM,Higher in LGG,False,False,False,Opposite direction
+TNF,-0.33295,-0.0732533,0.20929,-0.015,-0.11345,0.11539,Higher in LGG,Higher in LGG,True,False,False,"Same direction, neither significant"
+NLRP3,-0.05075,-0.0628335,0.262637,-0.09,-0.0662361,0.316994,Higher in LGG,Higher in LGG,True,False,False,"Same direction, neither significant"
+PYCARD,1.21665,0.581874,1.82747e-27,3.635,0.0717072,0.316994,Higher in GBM,Higher in GBM,True,True,False,"Same direction, not significant in CGGA"
+IL18,1.16255,0.469735,2.11629e-18,2.055,0.100785,0.152981,Higher in GBM,Higher in GBM,True,True,False,"Same direction, not significant in CGGA"
+AIF1,0.8706,0.381607,1.27131e-12,8.515,0.0299899,0.616088,Higher in GBM,Higher in GBM,True,True,False,"Same direction, not significant in CGGA"
+TLR4,-0.2881,-0.18762,0.000579954,-0.22,-0.117224,0.11539,Higher in LGG,Higher in LGG,True,True,False,"Same direction, not significant in CGGA"
+CXCL10,4.3913,0.798148,3.78461e-50,1.195,0.453901,3.02322e-13,Higher in GBM,Higher in GBM,True,True,True,Significant replication
+CASP1,1.6927,0.643637,3.5925e-33,2.54,0.212335,0.00127131,Higher in GBM,Higher in GBM,True,True,True,Significant replication
+IL1B,1.29945,0.357369,2.71791e-11,1.325,0.261221,6.19324e-05,Higher in GBM,Higher in GBM,True,True,True,Significant replication
