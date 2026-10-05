@@ -19,7 +19,7 @@ Among the inflammasome-related genes examined, CASP1, PYCARD, IL18, and IL1B sho
 - **Cohort:** TCGA Lower-Grade Glioma and Glioblastoma (GBMLGG)
 - **Dataset:** `TCGA.GBMLGG.sampleMap/HiSeqV2`, accessed via [UCSC Xena](https://xenabrowser.net/datapages/?dataset=TCGA.GBMLGG.sampleMap%2FHiSeqV2&host=https%3A%2F%2Ftcga.xenahubs.net)
 - **Expression unit:** log2(norm_count+1), as documented by Xena's dataset metadata
-- **Samples analyzed:** 516 LGG and 154 GBM primary tumor samples (670 total), after excluding recurrent tumor and solid tissue normal samples from the full 702-sample cohort
+- **Samples analyzed:** The dataset contains 702 samples in total. After restricting the analysis to primary tumor samples, 670 samples remained: 516 LGG and 154 GBM. Recurrent tumor and solid tissue normal samples were excluded.
 
 ## Candidate Genes
 
@@ -27,7 +27,7 @@ Ten genes associated with neuroinflammatory signaling were selected for this exp
 
 ## Methods
 
-For each candidate gene, expression values were compared between LGG and GBM samples using a two-sided Mann-Whitney U test. Resulting p-values were adjusted across the ten gene-level comparisons using the Benjamini-Hochberg procedure to control the false discovery rate. Cliff's delta was calculated as an effect size, oriented as GBM minus LGG, where positive values indicate a tendency toward higher expression in GBM and negative values indicate a tendency toward higher expression in LGG. An adjusted p-value below 0.05 was considered statistically significant. Analyses were performed in Python using SciPy for the Mann-Whitney U tests and statsmodels for multiple-testing correction. Full methodological detail, including software versions, is documented in the written report.
+For each candidate gene, expression values were compared between primary LGG and GBM tumor samples using a two-sided Mann-Whitney U test with the asymptotic method. Resulting p-values were adjusted across the ten gene-level comparisons using the Benjamini-Hochberg procedure to control the false discovery rate. Cliff's delta was calculated as an effect size oriented as GBM minus LGG, where positive values indicate a tendency toward higher expression in GBM and negative values indicate a tendency toward higher expression in LGG. An adjusted p-value below 0.05 was considered statistically significant. Analyses were performed in Python 3.13.15 using pandas 2.2.3, NumPy 2.1.3, SciPy 1.16.3 for the Mann-Whitney U tests, and statsmodels 0.15.0 for multiple-testing correction.For each gene, samples with missing expression values were excluded from that gene-specific comparison.
 
 ## Results Summary
 
