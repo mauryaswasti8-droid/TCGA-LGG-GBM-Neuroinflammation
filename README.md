@@ -71,6 +71,8 @@ This is an exploratory, cross-sectional comparison of bulk-tumor gene expression
 2. Goldman MJ, Craft B, Hastie M, et al. Visualizing and interpreting cancer genomics data via the Xena platform. *Nature Biotechnology*. 2020;38:675-678.
 3. UCSC Xena. TCGA lower-grade glioma and glioblastoma (GBMLGG) cohort and data resources. Dataset: `TCGA.GBMLGG.sampleMap/HiSeqV2`.
 
+Data acquisition, statistical analysis, and interpretation of results were conducted independently by the author. Portions of the written manuscript, including background framing and discussion of limitations, were drafted with the assistance of an AI writing tool and reviewed and approved by the author.
+
 ## Author
 
 Swasti Maurya
